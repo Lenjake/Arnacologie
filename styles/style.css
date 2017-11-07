@@ -122,7 +122,7 @@ background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
 
 #robot{
 
-	margin: 24% 0 0 119px;
+	margin: 0 0 0 119px;
 	border-radius: 335px;
 	transition: transform 0.2s;
 }
