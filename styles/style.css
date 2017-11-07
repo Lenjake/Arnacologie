@@ -1,0 +1,218 @@
+body{
+	background: 
+radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+background-color: slategray;
+background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}
+
+#wrapper{
+
+	position: relative;
+	height: auto;
+	width : 960px;
+	margin: 0 auto;
+	border-radius: 50px;
+	
+}
+
+#wrapper header{
+
+	width: 100%;
+	height: 150px;
+	background: #EAE9E7;
+	border-radius: 50px;
+	margin: 15px 0 0 0;
+	
+}
+
+#wrapper nav{
+
+	width: 100%;
+	height: 150px;
+	/*background: #EAE9E7;*/
+	background: url(../images/bg3.png) top;
+	border-radius: 50px;
+	margin: 553px 0 0 0;
+	transition: background 0.3s ease-out;
+	
+}
+
+#wrapper nav a{
+	display: block;
+	width: 945px;
+	height: 150px;
+	text-indent: -10000px;
+}
+
+#wrapper nav:hover{
+	background: url(../images/bg3.png) bottom;
+}
+
+#wrapper div{
+
+	width: 100%;
+	height: 150px;
+	background: #FF8ECE;
+	border-radius: 50px;
+	margin: 6px 0 0 0;
+	
+}
+
+#wrapper header h1{
+
+	float: left;
+	font-family: 'Bookman';
+	font-size: 78px;
+	margin: -104px 0 0 127px;
+	color: #4D4C44;
+
+}
+
+#wrapper nav h1{
+
+	float: left;
+	font-family: 'Bookman';
+	font-size: 58px;
+	margin: -104px 0 0 127px;
+	color: #4D4C44;
+
+}
+
+#wrapper nav h3{
+
+	float: left;
+	font-size: 40px;
+	font-family: 'Bookman';
+	margin: 10px 0 0 60px;
+	color: #4D4C44;
+
+}
+
+#wrapper nav h3 strong{
+
+	font-size : 75px;
+	margin: 0 0 0 205px;
+
+}
+
+#wrapper div h1{
+
+	float: left;
+	font-family: 'Bookman';
+	font-size: 53px;
+	margin: 0;
+	color: #EAE9E7;
+	width: inherit;
+	height: inherit;
+	text-align: center;
+	line-height: 150px;
+	box-shadow: 
+
+}
+
+#wrapper div h1 strong{
+
+
+	
+}
+
+
+#robot{
+
+	margin: 234px 0 0 119px;
+	border-radius: 335px;
+	transition: transform 0.2s;
+}
+
+#robot:hover{
+
+	-webkit-transform: scale(1.6) rotate(0deg);
+
+}
+
+#empty{
+	width: 100%;
+	height: 15px;
+}
+
+.fa-fw{
+ 	float : left;
+ 	color: #FDD835;
+ 	text-shadow: 0 0 5px #000;
+ 	margin: 17px 0 0 -8px;
+ 	
+}
+
+/******KeyFrames******/
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+}
+/*****End KeyFrames******/
+
+/******CSS Page Transition*****/
+.m-scene {
+  /** Basic styles for an animated element */
+  .scene_element {
+    animation-duration: 0.25s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+
+  }
+
+  /** An element that fades in */
+  .scene_element--fadein {
+    animation-name: fadeIn;
+  }
+
+  /** An element that fades in and slides up */
+  .scene_element--fadeinup {
+    animation-name: fadeInUp;
+  }
+
+  /** An element that fades in and slides from the right */
+  .scene_element--fadeinright {
+    animation-name: fadeInRight;
+  }
+}
+/*********End CSS PT*********/
+
+/***********STYLES TRANSI*********/
+
+
+
+/********END STYLES-TRANSI******/
